@@ -67,13 +67,13 @@ header {
 
 .nav-list li a:hover,
 .nav-list li a:active {
-  color: green;
+  color: #008044;
 }
 
 #nav-CTA:link,
 #nav-CTA:visited {
   color: #fff;
-  background-color: green;
+  background-color: #008044;
   padding: 1.2rem 2.4rem;
   border-radius: 2px;
   transition: all 0.3s ease;
@@ -115,7 +115,7 @@ section {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: rgba(67, 151, 71, 0.7);
+  background-color: rgba(67, 151, 126, 0.7);
   z-index: -1;
 }
 
@@ -168,16 +168,16 @@ section {
 
 #enroll:link,
 #enroll:visited {
-  background-color: green;
+  background-color: #008044;
   color: #fff;
-  border: 1px solid green;
+  border: 1px solid #008044;
   transition: all 0.3s ease;
 }
 #enroll:hover,
 #enroll:active {
   background-color: #016801;
   color: #fff;
-  border: 1px solid green;
+  border: 1px solid #008044;
 }
 
 #learnMore:link,
