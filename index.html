@@ -9,8 +9,40 @@
   </head>
   <body>
     <header>
+      <!-- responsive navbar -->
       <nav class="navbar">
-        <!-- <img src="" alt="ETC logo"> -->
+        <a href="#" class="nav-branding">
+          <img src="images/LogoBaseTransparent.webp" alt="Erisa Trust logo" />
+          <p>Erisa Trust Company</p>
+        </a>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#" class="nav-link">Individuals</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Employees</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Employers</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">About us</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Sign in</a>
+          </li>
+          <li class="nav-item">
+            <a id="navCTA" href="#" class="nav-link">Sign up</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+      <!-- <nav class="navbar">
+        
         <div class="nav-brand">
           <img
             src="images/LogoBaseTransparent.webp"
@@ -37,13 +69,8 @@
           <li class="enroll nav-list-item">
             <a id="nav-CTA" href="#">Sign up</a>
           </li>
-
-          <!-- make the FAQ a sub-component of About Us -->
-          <!-- <li class="nav-list-item">
-            <a href="#">FAQ</a>
-          </li> -->
         </ul>
-      </nav>
+      </nav> -->
     </header>
     <section class="section hero-section">
       <div class="hero-container">
@@ -80,7 +107,16 @@
     </section> -->
 
     <!-- <section></section> -->
+    <!-- RESPONSIVE NAV SCRIPTING -->
+    <script>
+      const hamburger = document.querySelector(".hamburger");
+      const navMenu = document.querySelector(".nav-menu");
 
+      hamburger.addEventListener("click", function () {
+        hamburger.classList.toggle("active");
+        navMenu.classList.toggle("active");
+      });
+    </script>
     <script src="https://unpkg.com/boxicons@2.1.1/dist/boxicons.js"></script>
   </body>
 </html>

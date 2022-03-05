@@ -24,65 +24,76 @@ header {
   box-shadow: 0 8px 22px rgba(0, 0, 0, 0.1);
 }
 
+/* responsive nav styles */
+li {
+  list-style: none;
+}
+
 .navbar {
-  height: 120px;
+  min-height: 70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.6rem 2rem;
+  padding: 4px 24px;
 }
 
-.nav-brand {
+.navbar a {
+  color: #333;
+  text-decoration: none;
+}
+
+.nav-branding {
+  font-size: 2rem;
   display: flex;
   align-items: center;
   gap: 1.2rem;
 }
 
-.nav-brand img {
-  height: 100px;
-  width: auto;
-}
-
-.nav-brand p {
-  font-size: 2.6rem;
-  font-weight: 300;
-}
-
-.nav-list {
+.nav-menu {
   display: flex;
-  gap: 1.6rem;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
 }
 
-.nav-list li {
-  list-style: none;
+.nav-link {
+  transition: 0.3s ease-out;
 }
 
-.nav-list li a:link,
-.nav-list li a:visited {
-  color: #3c4441;
-  text-decoration: none;
-  font-size: 1.6rem;
-  font-weight: 700;
+.nav-link:hover {
+  color: green;
 }
 
-.nav-list li a:hover,
-.nav-list li a:active {
-  color: #008044;
+.hamburger {
+  display: none;
+  cursor: pointer;
 }
 
-#nav-CTA:link,
-#nav-CTA:visited {
-  color: #fff;
-  background-color: #008044;
+#navCTA:link,
+#navCTA:visited {
+  background-color: green;
+  color: #eee;
   padding: 1.2rem 2.4rem;
   border-radius: 2px;
   transition: all 0.3s ease;
 }
 
-#nav-CTA:hover,
-#nav-CTA:active {
-  background-color: #016801;
+#navCTA:hover,
+#navCTA:active {
+  background-color: #016401;
 }
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #333;
+}
+
+/* see bottom of file for responsive nav queries */
 
 /* HERO/WELCOME TO ERISA TRUST COMPANY */
 
@@ -168,16 +179,16 @@ section {
 
 #enroll:link,
 #enroll:visited {
-  background-color: #008044;
+  background-color: green;
   color: #fff;
-  border: 1px solid #008044;
+  border: 1px solid green;
   transition: all 0.3s ease;
 }
 #enroll:hover,
 #enroll:active {
-  background-color: #016801;
+  background-color: #016401;
   color: #fff;
-  border: 1px solid #008044;
+  border: 1px solid #016401;
 }
 
 #learnMore:link,
@@ -197,6 +208,49 @@ section {
 
 /* MEDIA QUERIES - USE MAX WIDTH TO "GO BACK" AND MAKE IT MOBILE FRIENDLY */
 @media (max-width: 1050px) {
+  .hamburger {
+    display: block;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 80px;
+    gap: 0;
+    flex-direction: column;
+    color: #333;
+    background-color: #eee;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
+
+  .nav-item {
+    margin: 16px 0;
+  }
+
+  .nav-menu.active {
+    /*this will be activated with JavaScript*/
+    left: 0;
+  }
+
+  #navCTA:link,
+  #navCTA:visited {
+    padding: 1.2rem 10rem;
+  }
+
   .hero-container-inner {
     text-align: left;
     top: 200px;
@@ -205,4 +259,8 @@ section {
   .hero-btns {
     justify-content: flex-start;
   }
+}
+
+/* MEDIA QUERIES FOR RESPOSIVE NAV */
+@media (max-width: px) {
 }
