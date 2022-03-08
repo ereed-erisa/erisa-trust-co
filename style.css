@@ -265,6 +265,39 @@ section {
   flex: none;
 }
 
+/* WHY CHOOSE US SECTION */
+.credentials-section {
+  height: auto;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.credentials-section h3 {
+  font-size: 4.2rem;
+  text-align: start;
+  padding: 2.4rem 0;
+}
+
+.container {
+  display: flex;
+  gap: 1.6rem;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.credentials-section .column-left p {
+  margin-bottom: 2rem;
+}
+.credentials-list ul li {
+  list-style-type: disc;
+  margin-left: 30px;
+}
+
+.cred-image {
+  max-width: 640px;
+  border-radius: 2px;
+}
+
 /* MEDIA QUERIES - USE MAX WIDTH TO "GO BACK" AND MAKE IT MOBILE FRIENDLY */
 @media (max-width: 1050px) {
   .hamburger {
