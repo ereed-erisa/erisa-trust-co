@@ -108,6 +108,11 @@ section {
   /* background-color: #f0fff2; */
 }
 
+section h2,
+section h3 {
+  font-size: 4.2rem;
+}
+
 .hero-section {
   height: 100vh;
   margin: 0;
@@ -178,26 +183,34 @@ section {
 }
 
 #enroll:link,
-#enroll:visited {
+#enroll:visited,
+#portalLoginBtn:link,
+#portalLoginBtn:visited {
   background-color: green;
   color: #fff;
   border: 1px solid green;
   transition: all 0.3s ease;
 }
 #enroll:hover,
-#enroll:active {
+#enroll:active,
+#portalLoginBtn:hover,
+#portalLoginBtn:active {
   background-color: #016401;
   color: #fff;
   border: 1px solid #016401;
 }
 
 #learnMore:link,
-#learnMore:visited {
+#learnMore:visited,
+#portalHelpBtn:link,
+#portalHelpBtn:visited {
   transition: all 0.3s ease;
 }
 
 #learnMore:hover,
-#learnMore:active {
+#learnMore:active,
+#portalHelpBtn:hover,
+#portalHelpBtn:active {
   background-color: #01680113;
 }
 
@@ -300,6 +313,39 @@ section {
   border-radius: 2px;
 }
 
+/* PORTAL LOGIN FOR MEMBERS SECTION */
+.portal-section {
+  margin-top: 12rem;
+  margin-bottom: 12rem;
+}
+.portal-section .column-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3.6rem;
+}
+
+.portal-section div.hero-btns {
+  margin-top: 0;
+}
+
+.portal-section .column-right p {
+  text-align: center;
+}
+
+.portal-section .btn:link,
+.portal-section .btn:visited {
+  padding: 1.2rem 2.4rem;
+  text-decoration: none;
+}
+
+#portalHelpBtn:link,
+#portalHelpBtn:visited {
+  color: green;
+  border: 1px solid green;
+}
+
 /* MEDIA QUERIES - USE MAX WIDTH TO "GO BACK" AND MAKE IT MOBILE FRIENDLY */
 @media (max-width: 1350px) {
   .credentials-section {
@@ -374,6 +420,7 @@ section {
 
   .column-right {
     width: 100%;
+    /* display: flex; */
   }
 
   .cred-image {
