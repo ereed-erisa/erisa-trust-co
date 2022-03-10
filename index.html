@@ -203,6 +203,52 @@
         </div>
       </div>
     </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="section contact-section">
+      <div class="row section-header">
+        <h2>Get in Touch</h2>
+        <p>
+          You know you want it. Sign up with us today or reach out for more
+          information!
+        </p>
+      </div>
+      <div class="row">
+        <form action="#">
+          <label for="firstName">First name: </label>
+          <input type="text" id="firstName" placeholder="First name" />
+
+          <label for="lastName">Last name: </label>
+          <input type="text" id="lastName" placeholder="Last name" />
+
+          <label for="selectWhat">I am an...: </label>
+          <select name="selectWhat" id="selectWhat">
+            <option value="individual">Individual</option>
+            <option value="employee">Employee</option>
+            <option value="employer">Employer</option>
+          </select>
+          <label for="contactReason">I would like to...</label>
+          <select name="contactReason" id="contactReason">
+            <option value="individual">
+              Open a Flexible Spending Account (FSA)
+            </option>
+            <option value="employee">
+              Open a Healthcare Savings Account (HSA)
+            </option>
+            <option value="employer">Get more information</option>
+          </select>
+
+          <label for="contactMsg">Message: </label>
+          <textarea
+            name="contactMsg"
+            id="contactMsg"
+            cols="30"
+            rows="10"
+            placeholder="Type your message here"
+          ></textarea>
+        </form>
+      </div>
+    </section>
     <!-- RESPONSIVE NAV SCRIPTING -->
     <script>
       const hamburger = document.querySelector(".hamburger");
