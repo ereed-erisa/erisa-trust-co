@@ -330,8 +330,10 @@ section h3 {
   margin-top: 0;
 }
 
-.portal-section .column-right p {
+.portal-section p {
   text-align: center;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
 }
 
 .portal-section .btn:link,
@@ -469,5 +471,12 @@ section h3 {
   }
   .hero-btns .btn {
     text-align: center;
+  }
+
+  /* portal btns should stack */
+  .portal-section div.hero-btns {
+    margin-top: 4.8rem;
+    flex-direction: column;
+    width: 80%;
   }
 }
