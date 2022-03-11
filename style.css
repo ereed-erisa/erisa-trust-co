@@ -371,6 +371,11 @@ section h3 {
   flex-direction: column;
   gap: 1.6rem;
   align-items: flex-start;
+
+  padding: 2.4rem 4.8rem;
+  padding-bottom: 5.4rem;
+  background-color: #5db4816c;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.1);
 }
 
 .form-style div {
@@ -417,7 +422,24 @@ section h3 {
   background-color: #016401;
 }
 
+/* FOOTER STYLES */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+
+  padding: 1.2rem 1.2rem;
+  color: #acabab;
+  background-color: #eee;
+}
+
+footer .logo img {
+  height: 160px;
+}
+
 /* ******************************************** */
+/* media queries media queries media queries media queries */
 /* MEDIA QUERIES - USE MAX WIDTH TO "GO BACK" AND MAKE IT MOBILE FRIENDLY */
 @media (max-width: 1350px) {
   .credentials-section {
