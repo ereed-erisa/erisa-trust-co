@@ -215,38 +215,68 @@
         </p>
       </div>
       <div class="row">
-        <form action="#">
-          <label for="firstName">First name: </label>
-          <input type="text" id="firstName" placeholder="First name" />
+        <form action="#" class="form-style">
+          <div>
+            <label for="firstName">First name: </label>
+            <input
+              class="input"
+              type="text"
+              id="firstName"
+              placeholder="First name"
+            />
 
-          <label for="lastName">Last name: </label>
-          <input type="text" id="lastName" placeholder="Last name" />
+            <label for="lastName">Last name: </label>
+            <input
+              class="input"
+              type="text"
+              id="lastName"
+              placeholder="Last name"
+            />
+          </div>
 
-          <label for="selectWhat">I am an...: </label>
-          <select name="selectWhat" id="selectWhat">
-            <option value="individual">Individual</option>
-            <option value="employee">Employee</option>
-            <option value="employer">Employer</option>
-          </select>
-          <label for="contactReason">I would like to...</label>
-          <select name="contactReason" id="contactReason">
-            <option value="individual">
-              Open a Flexible Spending Account (FSA)
-            </option>
-            <option value="employee">
-              Open a Healthcare Savings Account (HSA)
-            </option>
-            <option value="employer">Get more information</option>
-          </select>
+          <div>
+            <label for="selectWhat">I am an...: </label>
+            <select class="input" name="selectWhat" id="selectWhat">
+              <option value="individual">Individual</option>
+              <option value="employee">Employee</option>
+              <option value="employer">Employer</option>
+            </select>
 
-          <label for="contactMsg">Message: </label>
-          <textarea
-            name="contactMsg"
-            id="contactMsg"
-            cols="30"
-            rows="10"
-            placeholder="Type your message here"
-          ></textarea>
+            <label for="contactReason">I would like to...</label>
+            <select class="input" name="contactReason" id="contactReason">
+              <option value="individual">
+                Open a Flexible Spending Account (FSA)
+              </option>
+              <option value="employee">
+                Open a Healthcare Savings Account (HSA)
+              </option>
+              <option value="employer">Get more information</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div>
+            <label for="email">Email: </label>
+            <input
+              class="input"
+              type="email"
+              id="email"
+              placeholder="johndoe@example.com"
+            />
+
+            <label for="phone">Phone number: </label>
+            <input class="input" type="tel" id="phone" />
+          </div>
+          <div>
+            <label for="contactMsg">Message (optional): </label>
+            <textarea
+              class="input"
+              name="contactMsg"
+              id="contactMsg"
+              cols="30"
+              rows="10"
+              placeholder="Type your message here"
+            ></textarea>
+          </div>
         </form>
       </div>
     </section>
