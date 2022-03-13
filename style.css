@@ -438,6 +438,34 @@ footer .logo img {
   height: 160px;
 }
 
+/* ABOUT HSA PAGE STYLES */
+.aboutHSA-section {
+  margin: 0 auto;
+  padding-top: 16rem 6.4rem 0;
+}
+
+.aboutHSA-section .section-header {
+  margin: 10rem auto 6.4rem;
+}
+
+.aboutHSA-section .row {
+  display: flex;
+}
+
+.aboutHSA-section .row .about-ul {
+  width: 50%;
+  padding: 2.4rem 1.8rem;
+  margin-left: 3.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 2.4rem;
+}
+
+.aboutHSA-section .row .about-ul li {
+  list-style: disc;
+}
+
 /* ******************************************** */
 /* media queries media queries media queries media queries */
 /* MEDIA QUERIES - USE MAX WIDTH TO "GO BACK" AND MAKE IT MOBILE FRIENDLY */
