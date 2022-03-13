@@ -494,6 +494,41 @@ footer .logo img {
   background-color: #016401;
 }
 
+.hsa-for-ER-section {
+  padding: 16rem 2.4rem;
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.hsa-for-ER-section .row .section-header {
+  margin: 0;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.hsa-for-ER-section h2 {
+  font-size: 3.2rem;
+  text-align: left;
+  padding-bottom: 3.2rem;
+}
+
+.hsa-for-ER-section .row {
+  margin-top: 4.2rem;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.hsa-for-ER-section h3 {
+  align-self: flex-start;
+  font-size: 2.4rem;
+}
+
+.contribution-limit-tbl {
+  width: 50%;
+  max-width: 60rem;
+}
+
 /* ******************************************** */
 /* media queries media queries media queries media queries */
 /* MEDIA QUERIES - USE MAX WIDTH TO "GO BACK" AND MAKE IT MOBILE FRIENDLY */
