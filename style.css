@@ -454,16 +454,19 @@ footer .logo img {
 
 .aboutHSA-section .row .about-ul {
   width: 50%;
+  /* height: 100%; */
   padding: 2.4rem 1.8rem;
   margin-left: 3.6rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  align-items: flex-start;
   gap: 2.4rem;
 }
 
 .aboutHSA-section .row .about-ul li {
-  list-style: disc;
+  list-style: none;
+  height: 4.8rem;
 }
 
 /* ******************************************** */
