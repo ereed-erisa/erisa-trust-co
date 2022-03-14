@@ -348,6 +348,379 @@ section h3 {
   border: 1px solid green;
 }
 
+/* CONTACT SECTION STYLES */
+.contact-section {
+  /* background-color: aquamarine; */
+  background-color: #fcfcfc;
+}
+.section-header {
+  /* background-color: aliceblue; */
+}
+
+.contact-section .row {
+  /* background-color: pink; */
+}
+
+.contact-row {
+  height: 320px;
+}
+
+.form-style {
+  max-width: 860px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  align-items: flex-start;
+
+  padding: 2.4rem 4.8rem;
+  padding-bottom: 5.4rem;
+  background-color: #5db4816c;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.1);
+}
+
+.form-style div {
+  display: flex;
+  width: 100%;
+  padding: 1.2rem 2.4rem;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.form-style div .input {
+  height: 3.6rem;
+  width: 264px;
+  margin: 1rem 2rem 1rem 0;
+  padding-left: 1.2rem;
+  border: none;
+  /* border: 1px solid #f1f1f1; */
+
+  border-radius: 6px;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.1);
+
+  flex: 1;
+}
+
+.submit-btn {
+  display: inline-block;
+  padding: 1.2rem 2.4rem;
+  margin: 0 auto;
+  width: 30%;
+  border: none;
+  border-radius: 2px;
+  background-color: green;
+  color: #fff;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  letter-spacing: 0.1rem;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.1);
+}
+
+.submit-btn:hover,
+.submit-btn:active {
+  cursor: pointer;
+  border: none;
+  background-color: #016401;
+}
+
+/* FOOTER STYLES */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+
+  padding: 1.2rem 1.2rem;
+  color: #acabab;
+  background-color: #eee;
+}
+
+footer .logo img {
+  height: 160px;
+}
+
+/* ABOUT HSA PAGE STYLES */
+.aboutHSA-section {
+  margin: 0 auto;
+  padding-top: 16rem 6.4rem 0;
+}
+
+.aboutHSA-section .section-header {
+  margin: 10rem auto 6.4rem;
+}
+
+.aboutHSA-section .row {
+  display: flex;
+}
+
+.aboutHSA-section .row .about-ul {
+  width: 50%;
+  /* height: 100%; */
+  padding: 2.4rem 1.8rem;
+  margin-left: 3.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2.4rem;
+}
+
+.aboutHSA-section .row .about-ul li {
+  list-style: none;
+  height: 4.8rem;
+}
+
+.btn-container {
+  /* margin-top: 10rem; */
+  margin-bottom: 5.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7.2rem;
+}
+
+.btn-container a:link,
+.btn-container a:visited {
+  text-decoration: none;
+  color: #fff;
+  background-color: green;
+  padding: 1.2rem 2.4rem;
+  border-radius: 2px;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.btn-container a:hover,
+.btn-container a:active {
+  background-color: #016401;
+}
+
+.hsa-info-section {
+  padding: 16rem 2.4rem;
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.hsa-info-section .row .section-header {
+  margin: 0;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.hsa-info-section h2 {
+  font-size: 3.2rem;
+  text-align: left;
+  padding-bottom: 3.2rem;
+}
+
+.hsa-info-section .row {
+  margin-top: 4.2rem;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.hsa-info-section h3 {
+  align-self: flex-start;
+  font-size: 2.4rem;
+}
+
+.contribution-limit-tbl {
+  width: 50%;
+  max-width: 60rem;
+}
+
+.hsa-info-section .row.cta-row {
+  display: flex;
+  background-color: #eee;
+  background-color: rgba(67, 151, 126, 0.7);
+  background-color: green;
+  height: 12rem;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 7.2rem;
+  margin-top: 12rem;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.1);
+}
+
+.hsa-info-section .row.cta-row a:link,
+.hsa-info-section .row.cta-row a:visited {
+  padding: 1.2rem 2.4rem;
+  background-color: #fff;
+  color: green;
+  text-decoration: none;
+  font-weight: 700;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.1);
+}
+
+.cta-row h3 {
+  color: #fff;
+}
+
+.row.moreInfoLogos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 7.2rem;
+  margin-bottom: 4.2rem;
+}
+
+.row.moreInfoLogos .logo-info-box {
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.4rem;
+}
+
+.row.moreInfoLogos .logo-info-box img {
+  /* width: 70%; */
+  height: 7.2rem;
+  width: auto;
+}
+
+.row.moreInfoLogos .logo-info-box p {
+  text-align: center;
+}
+
+/* FAQ page styles */
+.faq-section h2 {
+  font-size: 2.4rem;
+  /* margin-left: 6rem; */
+  margin-top: 6rem;
+  text-align: center;
+}
+.faq-container {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 4.6rem;
+  /* padding-top: 6rem; */
+}
+
+.faq {
+  background-color: transparent;
+  border: 1px solid #94a4a8;
+  border-radius: 1rem;
+  margin: 20px 0;
+  padding: 3rem;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s ease;
+}
+
+.faq.active {
+  background-color: #fff;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.faq.active::before,
+.faq.active::after {
+  content: "\f075";
+  font-family: "Font Awesome 5 Free";
+  color: #2ecc71;
+  font-size: 7rem;
+  position: absolute;
+  opacity: 0.2;
+  top: 20px;
+  left: 20px;
+  z-index: 0;
+}
+
+.faq.active::before {
+  color: #3498db;
+  top: -10px;
+  left: -30px;
+  transform: rotateY(180deg);
+}
+
+.faq-title {
+  margin: 0 35px 0 0;
+}
+
+.faq-text,
+.faq-text ul {
+  display: none;
+  margin: 30px 0 0;
+}
+
+.faq.active .faq-text {
+  display: block;
+}
+
+.faq-toggle {
+  background-color: transparent;
+  border: 0;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  padding: 0;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  height: 40px;
+  width: 40px;
+}
+
+.faq-toggle:focus {
+  outline: 0;
+}
+
+.faq-toggle .bxs-x-circle {
+  display: none;
+}
+
+.faq.active .faq-toggle .bxs-x-circle {
+  color: #fff;
+  display: block;
+}
+
+.faq.active .faq-toggle .bx-chevron-down {
+  display: none;
+}
+
+.faq.active .faq-toggle {
+  background-color: #9fa4a8;
+}
+
+.aboutHSA-section.portal-section {
+  padding-bottom: 1.2rem;
+}
+
+.aboutHSA-section.portal-section .btn-container {
+  margin-bottom: 0;
+}
+
+.row.portal-guide-blurb {
+  /* flex-direction: column; */
+  margin-bottom: 5.6rem;
+  max-width: 84rem;
+}
+
+.row.portal-guide-blurb h3 {
+  font-size: 3rem;
+  line-height: 1;
+  color: #999;
+}
+
+.portal-section iframe {
+  max-width: 36rem;
+}
+
+.video-grid .video-container {
+  max-width: 120rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 0 auto;
+}
+/* ******************************************** */
+/* media queries media queries media queries media queries */
 /* MEDIA QUERIES - USE MAX WIDTH TO "GO BACK" AND MAKE IT MOBILE FRIENDLY */
 @media (max-width: 1350px) {
   .credentials-section {
@@ -459,6 +832,43 @@ section h3 {
     padding: 2.4rem 3.2rem;
     justify-content: center;
     align-items: center;
+  }
+
+  .form-style {
+    max-width: 560px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .form-style div {
+    flex-direction: column;
+    gap: 0;
+    align-items: flex-start;
+    width: 100%;
+    padding: 0;
+  }
+
+  .form-style input,
+  .form-style select,
+  .form-style textarea {
+    /* height: 5.6rem; */
+    display: block;
+    padding: 1.2rem 2.4rem;
+    width: 100%;
+    flex: 1;
+  }
+
+  .form-style div .input {
+    width: 100%;
+  }
+
+  #contactMsg {
+    margin: 0;
+    width: auto;
+  }
+
+  .submit-btn {
+    width: 100%;
   }
 }
 
