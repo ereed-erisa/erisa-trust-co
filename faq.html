@@ -10,7 +10,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-    <title>HSA | Erisa Trust Co.</title>
+    <title>FAQ | Erisa Trust Co.</title>
   </head>
   <body>
     <header>
@@ -57,6 +57,7 @@
     </header>
 
     <section class="section faq-section">
+      <h2>Frequently Asked Questions</h2>
       <div class="faq-container">
         <div class="faq active">
           <h4 class="faq-title">What is an HSA?</h4>
@@ -78,7 +79,7 @@
           <p class="faq-text">
             To be eligible to open or contribute to an HSA, you must:
           </p>
-          <ul>
+          <ul class="faq-text">
             <li>Be covered by an HSA-eligible health plan</li>
             <li>Not be enrolled in Medicare</li>
             <li>Not be covered by any other disqualifying health coverage</li>
@@ -137,11 +138,12 @@
             older who are eligible can make an additional $1,000 catch-up
             contribution each year.
           </p>
-          <ul>
+          <ul class="faq-text">
             <li>Individual limit: $3,600</li>
             <li>Family limit: $7,200</li>
             <li>Catch-up Contribution: $1,000</li>
           </ul>
+
           <p class="faq-text">
             If you are only eligible for part of the calendar year, you are only
             eligible for part of the contribution limit. To find out your limit,
@@ -331,14 +333,23 @@
         </p>
       </div>
     </footer>
-    <!-- RESPONSIVE NAV SCRIPTING -->
     <script>
+      //   RESPONSIVE NAV SCRIPTING
       const hamburger = document.querySelector(".hamburger");
       const navMenu = document.querySelector(".nav-menu");
 
       hamburger.addEventListener("click", function () {
         hamburger.classList.toggle("active");
         navMenu.classList.toggle("active");
+      });
+
+      // FAQ ACCORDION SCRIPTING
+      const toggles = document.querySelectorAll(".faq-toggle");
+
+      toggles.forEach((toggle) => {
+        toggle.addEventListener("click", () => {
+          toggle.parentNode.classList.toggle("active");
+        });
       });
     </script>
     <script src="https://unpkg.com/boxicons@2.1.1/dist/boxicons.js"></script>
