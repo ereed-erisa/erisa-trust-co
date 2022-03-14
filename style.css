@@ -24,7 +24,9 @@ header {
   box-shadow: 0 8px 22px rgba(0, 0, 0, 0.1);
 }
 
+/****************************************/
 /* responsive nav styles */
+/****************************************/
 li {
   list-style: none;
 }
@@ -95,7 +97,9 @@ li {
 
 /* see bottom of file for responsive nav queries */
 
+/****************************************/
 /* HERO/WELCOME TO ERISA TRUST COMPANY */
+/****************************************/
 
 section {
   /* max-width: 1225px; */
@@ -214,7 +218,9 @@ section h3 {
   background-color: #01680113;
 }
 
+/****************************************/
 /* SERVICES SECTION STYLE */
+/****************************************/
 .services-section {
   background-color: #fcfcfc;
   display: flex;
@@ -278,7 +284,9 @@ section h3 {
   flex: none;
 }
 
+/****************************************/
 /* WHY CHOOSE US SECTION */
+/****************************************/
 .credentials-section {
   height: auto;
   max-width: 1300px;
@@ -312,8 +320,9 @@ section h3 {
   max-width: 650px;
   border-radius: 2px;
 }
-
-/* PORTAL LOGIN FOR MEMBERS SECTION */
+/**********************************************/
+/* PORTAL LOGIN FOR MEMBERS SECTION ON INDEX */
+/**********************************************/
 .portal-section {
   margin-top: 12rem;
   margin-bottom: 12rem;
@@ -347,18 +356,12 @@ section h3 {
   color: green;
   border: 1px solid green;
 }
-
+/****************************************/
 /* CONTACT SECTION STYLES */
+/****************************************/
 .contact-section {
   /* background-color: aquamarine; */
   background-color: #fcfcfc;
-}
-.section-header {
-  /* background-color: aliceblue; */
-}
-
-.contact-section .row {
-  /* background-color: pink; */
 }
 
 .contact-row {
@@ -422,7 +425,9 @@ section h3 {
   background-color: #016401;
 }
 
+/****************************************/
 /* FOOTER STYLES */
+/****************************************/
 footer {
   display: flex;
   align-items: center;
@@ -438,7 +443,9 @@ footer .logo img {
   height: 160px;
 }
 
+/****************************************/
 /* ABOUT HSA PAGE STYLES */
+/****************************************/
 .aboutHSA-section {
   margin: 0 auto;
   padding-top: 16rem 6.4rem 0;
@@ -585,6 +592,7 @@ footer .logo img {
   text-align: center;
 }
 
+/****************************************/
 /* FAQ page styles */
 .faq-section h2 {
   font-size: 2.4rem;
@@ -719,9 +727,13 @@ footer .logo img {
   gap: 2rem;
   margin: 0 auto;
 }
+
+/* ******************************************** */
 /* ******************************************** */
 /* media queries media queries media queries media queries */
 /* MEDIA QUERIES - USE MAX WIDTH TO "GO BACK" AND MAKE IT MOBILE FRIENDLY */
+/* ******************************************** */
+/* ******************************************** */
 @media (max-width: 1350px) {
   .credentials-section {
     padding: 0 2.4rem 3rem;
