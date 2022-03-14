@@ -686,6 +686,39 @@ footer .logo img {
 .faq.active .faq-toggle {
   background-color: #9fa4a8;
 }
+
+.aboutHSA-section.portal-section {
+  padding-bottom: 1.2rem;
+}
+
+.aboutHSA-section.portal-section .btn-container {
+  margin-bottom: 0;
+}
+
+.row.portal-guide-blurb {
+  /* flex-direction: column; */
+  margin-bottom: 5.6rem;
+  max-width: 84rem;
+}
+
+.row.portal-guide-blurb h3 {
+  font-size: 3rem;
+  line-height: 1;
+  color: #999;
+}
+
+.portal-section iframe {
+  max-width: 36rem;
+}
+
+.video-grid .video-container {
+  max-width: 120rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 0 auto;
+}
 /* ******************************************** */
 /* media queries media queries media queries media queries */
 /* MEDIA QUERIES - USE MAX WIDTH TO "GO BACK" AND MAKE IT MOBILE FRIENDLY */
