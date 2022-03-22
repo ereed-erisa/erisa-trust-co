@@ -620,7 +620,8 @@ footer .logo img {
 
 .faq.active {
   background-color: #fff;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1),
+    0 3px 6px rgba(0, 0, 0, 0.1);
 }
 
 .faq.active::before,
@@ -726,6 +727,83 @@ footer .logo img {
   flex-wrap: wrap;
   gap: 2rem;
   margin: 0 auto;
+}
+
+.aboutErisa-section .section-header {
+  margin-bottom: 64px;
+  margin-top: 64px;
+}
+
+.aboutErisa-section h4 {
+  font-size: 3.2rem;
+}
+
+.aboutErisa-section .row {
+  margin: 2.4rem auto;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.aboutErisa-section .row .blurb-flex-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.blurb-flex-row .div-left {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  width: 70%;
+}
+
+.blurb-flex-row img {
+  max-height: 320px;
+  justify-self: center;
+}
+
+.blurb-flex-row.contact-blurb {
+  display: block;
+  text-align: center;
+  width: 50%;
+  padding: 2.4rem;
+}
+
+.blurb-flex-row.contact-blurb p {
+  margin-bottom: 2rem;
+}
+
+.offers-flex-row {
+  height: max-content;
+  padding: 4.2rem 0 0;
+  display: flex;
+  gap: 13.2rem;
+  justify-content: center;
+  align-items: center;
+  margin: 3.6rem auto;
+}
+
+.offers-flex-row p {
+  width: 50%;
+  font-size: 2rem;
+}
+
+.offers-flex-row i {
+  font-size: 3.6rem;
+  color: green;
+}
+.offers-flex-row ul {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+.offers-flex-row ul li {
+  font-size: 2.4rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  line-height: 1.2;
 }
 
 /* ******************************************** */
