@@ -763,6 +763,10 @@ footer .logo img {
 	align-items: center;
 }
 
+.aboutErisa-section .section-header .slogan {
+	font-size: 2.4rem;
+}
+
 .aboutErisa-section .row .blurb-flex-row {
 	display: flex;
 	justify-content: space-between;
@@ -789,7 +793,7 @@ footer .logo img {
 }
 
 .blurb-flex-row.contact-blurb p {
-	margin-bottom: 2rem;
+	margin-bottom: 0;
 }
 
 .aboutErisa-section .wut-offer {
@@ -801,15 +805,18 @@ footer .logo img {
 	height: max-content;
 	padding: 4.2rem 0 0;
 	display: flex;
-	gap: 13.2rem;
+	gap: 10rem;
 	justify-content: flex-start;
 	align-items: center;
-	margin: 3.6rem auto;
+	margin: 4.8rem auto;
+	padding-top: 0;
 }
 
 .offers-flex-row p {
 	width: 50%;
 	font-size: 2rem;
+	line-height: 2;
+	/* text-align: right; */
 }
 
 .offers-flex-row i {
@@ -828,6 +835,43 @@ footer .logo img {
 	gap: 1rem;
 	align-items: center;
 	line-height: 1.2;
+}
+
+/* .aboutErisa-section .offers-flex-row.offers-btm {
+	flex-direction: row;
+} */
+
+.aboutErisa-section
+	.offers-flex-row.offers-btm
+	.offers-blurb {
+	width: 100%;
+	display: flex;
+	gap: 4.2rem;
+}
+
+.aboutErisa-section .offers-flex-row.offers-btm i {
+	font-size: 7.2rem;
+}
+
+.aboutErisa-section .offers-flex-row.offers-btm p {
+	line-height: 1.4;
+	width: 100%;
+}
+.aboutErisa-section .row.fee-structure {
+	margin: 9.6rem auto;
+	flex-direction: row;
+	justify-content: space-between;
+	gap: 3.6rem;
+	padding: 4.8rem;
+	background-color: #016401;
+	color: #fcfcfc;
+	box-shadow: 0 8px 22px rgba(0, 0, 0, 0.2);
+}
+
+.row.fee-structure .u-pay-4-deez {
+	display: flex;
+	flex-direction: column;
+	gap: 0.8rem;
 }
 
 /* ***************************************************** */
