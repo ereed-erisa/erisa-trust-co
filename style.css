@@ -369,6 +369,12 @@ section h3 {
 	height: 320px;
 }
 
+.contact-row .address,
+.contact-row .support-contact {
+	font-size: 1.8rem;
+	line-height: 2;
+}
+
 .form-style {
 	max-width: 860px;
 	display: flex;
